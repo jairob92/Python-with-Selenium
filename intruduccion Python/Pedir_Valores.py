@@ -1,0 +1,17 @@
+#input
+print("Cual es tu nombre: ")
+nombre=input()
+print("Tu nombre es: "+nombre)
+print("Cual es tu edad: ")
+edad=input()
+print("Tu nombre es: "+nombre+"y tu apellido es"+edad)
+print("Tu nombre es: {} y tu edad es: {}".format(nombre,edad))
+print("Digite los numeros de a+b")
+print("Valor de A")
+a=input()
+a=int(a)
+print("Valor de B")
+b=input()
+b=int(b)
+resultado=a+b
+print("la suma de {} + {} es {}".format(a,b,resultado))
